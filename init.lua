@@ -26,6 +26,16 @@ hs.hotkey.bind({"cmd", "alt", "ctrl"}, "E", function()
   taskkeeper.update()
 end)
 
+-- [cmd+alt+ctrl+N]ew task.
+hs.hotkey.bind({"cmd", "alt", "ctrl"}, "N", function()
+  taskkeeper.new()
+end)
+
+-- [cmd+alt+ctrl+C]ompleted current task.
+hs.hotkey.bind({"cmd", "alt", "ctrl"}, "C", function()
+  taskkeeper.complete()
+end)
+
 -- [[ Finish ]]
 
 function onComplete()

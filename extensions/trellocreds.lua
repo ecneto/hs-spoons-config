@@ -1,9 +1,10 @@
 module = {}
 
 local config = {
-  listId= 'xxxxxxxxxxxxxxxxxxxxxxxx',
+  workingListId= 'xxxxxxxxxxxxxxxxxxxxxxxx',
+  completeListId= 'xxxxxxxxxxxxxxxxxxxxxxxx',
   apiKey= 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
-  serverToken= 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'  
+  serverToken= 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 }
 
 function module.getConfig()

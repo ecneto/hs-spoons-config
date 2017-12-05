@@ -6,7 +6,7 @@
 - git clone https://github.com/ecneto/hs-spoons-config.git ~/.hammerspoon
 - Hammerspoon Icon -> Reload config
 - all the shortcuts are in the ~/.hammerspoon/init.lua file
-- set your List ID, API key and server token in extensions/trellocreds.lua
+- set your List IDs, API key and server token in extensions/trellocreds.lua
 
 ## Shortcuts
 
