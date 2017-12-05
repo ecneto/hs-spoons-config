@@ -21,3 +21,9 @@ Shows you the item you're working on.
 ### [cmd+alt+ctrl+S]kip to the next one.
 Switch the active card to the next in the list.
 
+### [cmd+alt+ctrl+N]ew task.
+Create a new task.
+
+### [cmd+alt+ctrl+C]omplete current task.
+Move the active task from the working list to the completed list.
+
