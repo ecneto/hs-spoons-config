@@ -72,7 +72,7 @@ function module.complete()
   local authParams = "key="..c.apiKey.."&token="..c.serverToken;
   local cardId = tasks[current].id
   local taskName = tasks[current].name
-  local url = "https://api.trello.com/1/cards/".. cardId .."/idList?value="..c.completeListId.."&" .. authParams
+  local url = "https://api.trello.com/1/cards/".. cardId .."?idList="..c.completeListId.."&pos=top&" .. authParams
   print(url)
   local status,result,headerResponse = hs.http.doRequest(url, 'PUT')
   if status == 200 then
