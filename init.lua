@@ -10,6 +10,8 @@ end)
 
 local taskkeeper = require "extensions.taskkeeper"
 taskkeeper.start()
+local appmanager = require "extensions.appmanager"
+appmanager.start()
 
 -- [cmd+alt+ctrl+W]hat am I doing?
 hs.hotkey.bind({"cmd", "alt", "ctrl"}, "W", function()
@@ -35,6 +37,12 @@ end)
 hs.hotkey.bind({"cmd", "alt", "ctrl"}, "C", function()
   taskkeeper.complete()
 end)
+
+-- [cmd+alt+ctrl+T]rello
+hs.hotkey.bind({"cmd", "alt", "ctrl"}, "T", function()
+  appmanager.open_trello()
+end)
+
 
 -- [[ Finish ]]
 
